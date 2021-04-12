@@ -1,0 +1,45 @@
+.promo {
+    background: #F1E4E6;
+    min-height: 375px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.promoImage {
+    background-image: url(../img/promo.png);
+    margin-left:calc(50% - #{$desktopWidth} / 2 - 300px);
+    width:801px;
+    height: 764px;
+}
+
+.promoText {
+    margin-left: 50px;
+    line-height: 44px;
+    display:flex;
+    justify-content: flex-start;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        height: 92px;
+        width: 12px;
+        background: $mainColor;
+        left:-25px;
+    }
+}
+
+.promoTextH1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.promoTextH2 {
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.promoTextH2add {
+    color: $mainColor;
+    font-size: 34px;
+}

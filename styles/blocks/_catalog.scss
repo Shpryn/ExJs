@@ -1,0 +1,78 @@
+
+.catalogPromo{
+    display:flex;
+    align-items: center;
+    min-height: 148px;
+    justify-content: space-between;
+    background-color: #F8F3F4;
+}
+.catalogPromoH1{
+    font-size: 24px;
+    color: $mainColor;
+    font-weight: 400;
+}
+
+.catalogPromoNavigation{
+font-weight: 300;
+font-size: 14px;
+color: #636363;
+}
+.catalogPromoNavigationLinkChoosed{
+    font-weight: 700;
+    color:$mainColor;
+}
+
+
+
+.catalogHeader{
+    display:flex;
+    height: 132px;
+    align-items: center;
+}
+.catalogHeaderLeft{
+    width:71px;
+}
+.catalogHeaderCenter{
+    display:flex;
+    margin-left:calc(100% / 2 - 71px - 350px /2);
+    margin-right:calc(100%/2 - 350px /2);
+    width:350px;
+}
+
+.catalogHeaderLeftSummary{
+    font-weight: 600;
+    font-size: 14px;
+    color:#000;
+}
+.catalogHeaderCenterDetails{
+    margin-right:28px;
+}
+.catalogHeaderCenterSummary{
+    color:#6F6E6E;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.pagination{
+    display:flex;
+    margin:48px 0 96px;
+}
+.paginationPages{
+    border: 1px solid #EBEBEB;
+    padding:15px 16px;
+    background-color: #fff;
+    color:#c4c4c4;
+    margin:0 auto;
+}
+.paginationPageNumber{
+    margin-left:20px;
+    letter-spacing: -2px;
+    color:#c4c4c4;
+}
+.paginationPageNumberFirst{
+    color:inherit;
+}
+.paginationPageNumberLast{
+    margin-left:-2px;
+    color:inherit;
+}

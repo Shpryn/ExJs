@@ -1,0 +1,65 @@
+.boxes {
+    padding-bottom:96px;
+    padding-top:65px;
+@include flexCenterBetween();
+}
+
+.boxesCol {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 260px;
+    margin:0 auto;
+    margin-bottom:30px;
+    transition:.4s;
+    &:hover{
+        transform:scale(1.1);
+    }
+}
+
+.boxesColLong {
+    height: 180px;
+    width: 100%;
+}
+
+.boxesText {
+    text-align: center;
+    margin: calc(260px/2 - 25px) 0px;
+}
+
+.boxesTextLong {
+    margin: calc(180px/2 - 25px) 0;
+}
+
+.boxesH1 {
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.boxesH2 {
+    font-weight: bold;
+    font-size: 24px;
+    color: $mainColor;
+}
+
+.boxImg1 {
+    background-image: url(../img/box-women.png);
+    background-size: cover;
+}
+
+.boxImg2 {
+    background-image: url(../img/box-men.png);
+    background-size: cover;
+}
+
+.boxImg3 {
+    background-image: url(../img/box-kid.png);
+    background-size: cover;
+}
+
+.boxImg4 {
+    background-image: url(../img/box-accesories.png);
+    background-size: cover;
+}
